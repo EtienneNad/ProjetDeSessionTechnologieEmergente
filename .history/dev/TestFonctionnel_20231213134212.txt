@@ -13,7 +13,7 @@
 13. En cliquant sur le bouton «Play», je vérifie que la fonction commencerLecture() est appelée et que la lecture du message commence.
 14. Pendant la lecture du message par la synthèse vocale, je confirme qu'il s'agit bien du dernier message envoyé par ChatGPT qui est lu.
 15. En cliquant sur le bouton «Stop» dans la section réponse, je vérifie que la fonction arreterLecture() est appelée et que la lecture du message s'arrête.
-16. Après avoir cliqué sur le bouton «Stop», je réappuie sur le bouton «Play» pour vérifier s'il est possible de lire le message de ChatGPT plusieurs fois.
+16. Après avoir cliqué sur le bouton «Stop», je réappuie sur le bouton «Play» pour vérifier si il est possible de lire le message de ChatGPT plusieurs fois.
 17. En réglant le curseur de vitesse de la synthèse vocale au maximum, je vérifie que la synthèse vocale fonctionne correctement à la vitesse maximale.
 18. En cliquant sur le bouton «Play», je m'assure que la vitesse de lecture du message est bien à son maximum.
 19. En réglant le curseur de vitesse de la synthèse vocale au minimum, je vérifie que la synthèse vocale fonctionne correctement à la vitesse minimale.
@@ -27,4 +27,4 @@
 27. En cliquant sur la liste déroulante des langues, je vérifie si la liste des langues est correctement générée.
 28. En sélectionnant une autre langue, je vérifie que la langue par défaut est changée pour la langue sélectionnée.
 29. En cliquant sur «Play», je vérifie si la lecture du message se fait avec la nouvelle langue sélectionnée.
-30. En sélectionnant une voix différente dans la liste déroulante des voix pendant la lecture d'un message, je vérifie que la synthèse vocale utilise la nouvelle voix sélectionnée pour la lecture en cours.
+30 .En sélectionnant une voix différente dans la liste déroulante des voix pendant la lecture d'un message, je vérifie que la synthèse vocale utilise la nouvelle voix sélectionnée pour la lecture en cours.

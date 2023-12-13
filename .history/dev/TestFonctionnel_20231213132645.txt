@@ -1,0 +1,26 @@
+1. Je clique sur le bouton "Microphone" pour vérifier si la fonction commencerConversion() est appelée et que la reconnaissance vocale démarre.
+2. En parlant dans le microphone, je vérifie que ce que je dis est correctement retranscrit dans la zone de texte.
+3. En cliquant sur le bouton "Stop" dans la section question, je m'assure que la fonction arreterConversion() est appelée, mettant fin à la reconnaissance vocale.
+4 .Après avoir cliqué sur le bouton "Arrêter", je clique à nouveau sur le bouton "Microphone" pour vérifier si le dernier message enregistré s'efface et qu'un nouveau message est affiché.
+5. Je clique dans la zone de texte pour corriger d'éventuelles erreurs de compréhension de la reconnaissance vocale.
+6. En cliquant sur le bouton "Envoyer", je vérifie si la question est correctement envoyée à l'API de ChatGPT.
+7. Je vérifie dans la zone réponse si ChatGPT a bien reçu ma question et qu'elle est enregistrée dans la liste.
+8. Je confirme que l'API de ChatGPT répond correctement à la question posée.
+9. Je vérifie que, dans la zone de texte des questions, le dernier message envoyé est automatiquement effacé après que l'API a reçu le message.
+10. Je clique sur le bouton "Envoyer" sans saisir de question dans la zone de texte pour confirmer que la requête n'est pas envoyée à l'API et qu'aucune réponse n'est affichée.
+11. En saisissant une question contenant uniquement des espaces dans la zone de texte et en cliquant sur le bouton "Envoyer", je m'assure que la question est correctement traitée et qu'aucune réponse inappropriée n'est affichée.
+12. En cliquant sur le bouton "Play", je vérifie que la fonction commencerLecture() est appelée et que la lecture du message commence.
+13. Pendant la lecture du message par la synthèse vocale, je confirme qu'il s'agit bien du dernier message envoyé par ChatGPT qui est lu.
+14. En cliquant sur le bouton "Stop" dans la section réponse, je vérifie que la fonction arreterLecture() est appelée et que la lecture du message s'arrête.
+15. Après avoir cliqué sur le bouton "Stop", je réappuie sur le bouton "Play" pour vérifier si il est possible de lire le message de ChatGPT plusieurs fois.
+16. En réglant le curseur de vitesse de la synthèse vocale au maximum, je vérifie que la synthèse vocale fonctionne correctement à la vitesse maximale.
+17. En cliquant sur le bouton "Play", je m'assure que la vitesse de lecture du message est bien à son maximum.
+18. En réglant le curseur de vitesse de la synthèse vocale au minimum, je vérifie que la synthèse vocale fonctionne correctement à la vitesse minimale.
+19. En cliquant sur le bouton "Play", je m'assure que la vitesse de lecture du message est bien à son minimum.
+20. En réglant le curseur de tonalité de la synthèse vocale au maximum, je vérifie que la synthèse vocale fonctionne correctement à la tonalité maximale.
+21. En cliquant sur le bouton "Play", je m'assure que la tonalité de lecture du message est bien au maximum.
+22. En réglant le curseur de tonalité de la synthèse vocale au minimum, je vérifie que la synthèse vocale fonctionne correctement à la tonalité minimale.
+23. En cliquant sur le bouton "Play", je m'assure que la tonalité de lecture du message est bien au minimum.
+24. En cliquant sur la liste déroulante des langues, je vérifie si la liste des langues est correctement générée.
+25. En sélectionnant une autre langue, je vérifie que la langue par défaut est changée pour la langue sélectionnée.
+26. En cliquant sur "Play", je vérifie si la lecture du message se fait avec la nouvelle langue sélectionnée.
